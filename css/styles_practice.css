@@ -1,0 +1,237 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.7;
+  font-weight: 900;
+
+}
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+
+/* nave-bar */
+
+.navbar{
+padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* download-buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-image{
+  width: 15rem;
+  transform: rotate(25deg);
+position: absolute;
+
+}
+
+.apple-downoad{
+  width:20px;
+  padding-bottom: 5px;
+}
+
+.android-download{
+  width:20px;
+  padding-bottom: 5px;
+}
+
+/* features */
+
+#features{
+
+  padding: 7% 15%;
+position: relative;
+z-index: 1;
+background-color: #fff;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-size:1.5rem;
+  font-weight: 900;
+padding-top: 5px;
+}
+
+p{
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.tick-img{
+  width: 3rem;
+
+}
+
+.feature-box{
+  text-align: center;
+
+}
+
+
+.bullseye{
+  width: 3rem;
+}
+
+.heart{
+  padding-top: 10px;
+  width: 3rem;
+
+}
+
+
+/* testimonials */
+
+#testimonials{
+
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2{
+font-family: 'Montserrat';
+font-size:2rem;
+font-weight: 900;
+line-height: 1.5;
+padding: 0 60px;
+
+}
+
+.dog-testimonials{
+  border-radius: 100%;
+  width: 10%;
+}
+
+.icon-size{
+  width: 10%;
+}
+
+em{
+  font-size: 10px;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo{
+width: 15%;
+padding: 0 20px 20px 20px;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+}
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.h2padding{
+  padding: 0 0;
+}
+
+.icon{
+  color: #ef8172;
+      font-size: 3rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.btn-lg1{
+  width:100%;
+}
+
+.pricingcard{
+  padding: 3% 3%;
+}
+
+@media (max-width:1000px) {
+
+  #title{
+    text-align: center;
+  }
+  .iphone-image{
+    width: 15rem;
+    transform: rotate(0);
+  position: static;
+  }
+}
+
+/* cta */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  line-height: 4;
+}
+
+.ctah3{
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+/* footer */
+#footer{
+/* padding: 10% auto; */
+}
+
+.footer-padding{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* padding: 3% 43%; */
+  text-align: center;
+}
+
+.twitterimage{
+     margin-left: 50px;
+
+}
+
+span{
+
+  padding: 0 5% 5% 0;
+
+}
